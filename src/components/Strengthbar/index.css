@@ -1,0 +1,59 @@
+.bar-container {
+  background-image: linear-gradient(#fc5d73, #ff993f);
+  color: white;
+}
+
+.header-container {
+  margin-left: 16px;
+  margin-top: 258px;
+  margin-right: 117px;
+  padding: 12px;
+  width: 260px;
+}
+
+.button-container {
+  margin-left: 75%;
+  padding: 10px;
+}
+
+.progress-container {
+  border: 3px solid #fff;
+}
+
+.float-child {
+  width: 20%;
+  float: left;
+  padding: 2px;
+}
+
+.container {
+  display: grid;
+  background-color: white;
+  color: black;
+  height: 200px;
+  padding: 5px;
+}
+
+.grid-1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row: 1;
+}
+
+.grid-2 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row: 1;
+}
+
+.grid-3 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row: 2;
+}
+
+.grid-4 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row: 2;
+}
